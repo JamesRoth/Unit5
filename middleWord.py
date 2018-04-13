@@ -5,4 +5,4 @@
 words=input("Enter some words: ").split(" ")
 
 if len(words)%2==0:
-    print(words[len(words)/2], words[len(words)/2+1])
+    print(words[len(words)/2-1], words[len(words)/2])
