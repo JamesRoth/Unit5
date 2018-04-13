@@ -3,6 +3,6 @@
 #wordSort.py - making a list
 
 words=input("Enter some words: ").split(" ")
-words.sort
+words.sort()
 for item in words:
     print(item)
