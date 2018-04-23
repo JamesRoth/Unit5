@@ -12,7 +12,7 @@ colors=[0x00ff00,0xff0000,0x0000ff,0x00ffff,0xff00ff,0xffffff]
 def mouseClick(event):
     color=colors[0:randint(len(colors)-1)]
     
-    rectangle=RectangleAsset(1000, 2000, outline, color)
+    rectangle=RectangleAsset(1000, 2000, outline, (color,1))
     Sprite(rectangle)
 
 App().listenMouseEvent("click", mouseClick)
