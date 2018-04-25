@@ -9,4 +9,4 @@ today=date.today()
 days=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']
 months=["January","Febuary","March","April","May","June","July","August","September","October","November","December"]
 
-print("Today is", days[today.weekday()] + ",", months[today.month], today.day, today.year)
+print("Today is", days[today.weekday()] + ",", months[today.month-1], today.day, today.year)
