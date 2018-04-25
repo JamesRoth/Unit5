@@ -7,5 +7,8 @@ words=["computer", "mortify", "dog", "firetruck", "yes", "python", "cat"]
 words.sort()
 
 num=int(input("What number word do you want? "))
-num-=1
-print(words[num])
+
+if num<1 or num>len(words):
+    print("Invalid number")
+else:
+    print(words[num-1])
