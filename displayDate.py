@@ -4,7 +4,7 @@
 
 from datetime import *
 
-today=datetime.date.today()
+today=date.today()
 
 days=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']
 months=["January","Febuary","March","April","May","June","July","August","September","October","November","December"]
