@@ -2,6 +2,8 @@
 #4/25/18
 #stat.py - median, mode, min, max, and mean of a list
 
+from ggame import *
+
 numbers=[]
 
 while True:
