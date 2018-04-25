@@ -5,6 +5,7 @@
 numbers=[]
 
 while True:
-    numbers.append(int(input("Enter a number to add to a list, type q when finished. "))
+    num=int(input("Enter a number to add to a list, type q when finished. ")
     if App.listenKeyEvent("q") == True:
         break
+    numbers.append(num)
