@@ -5,4 +5,4 @@
 from date import datetime
 
 days=['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']
-months=
+months=months=["January","Febuary","March","April","May","June","July","August","September","October","November","December"]
