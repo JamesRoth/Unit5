@@ -8,3 +8,7 @@ numbers=[]
 
 for i in range(1,21):
     numbers.append(randint(1,100))
+
+print(sum(numbers))
+print(min(numbers))
+print(max(numbers))
