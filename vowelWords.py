@@ -4,4 +4,5 @@
 
 words=input("Enter some words: ").split(" ")
 
-
+for item in words:
+    print(item)
