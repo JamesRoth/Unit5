@@ -7,7 +7,7 @@ def median():
     if len(numbers)%2==0:
         print((numbers[(len(numbers)-1)/2]+numbers[len(numbers)/2])/2) 
     else:
-        
+        print()
 
 numbers=[]
 
