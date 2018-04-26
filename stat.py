@@ -5,7 +5,7 @@
 numbers=[]
 
 while True:
-    num=int(input("Enter a number to add to a list, type q when finished. "))
-    if str(num) == "q":
+    num=input("Enter a number to add to a list, type q when finished. ")
+    if num == "q":
         break
-    numbers.append(num)
+    numbers.append(str(num))
