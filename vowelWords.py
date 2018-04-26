@@ -5,5 +5,5 @@
 words=input("Enter some words: ").split(" ")
 
 for item in words:
-    if item[0]=="a" or item[0]=="e" or item[0]=="i" or item[0]=="o" or item[0]=="u":
+    if item[0] in "aeiou" or item[0] in ['A', 'E', 'I', 'O', 'U']
         print(item)
