@@ -9,3 +9,4 @@ while True:
     if num == "q":
         break
     numbers.append(str(num))
+print("Min: ", min(numbers))
