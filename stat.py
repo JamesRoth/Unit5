@@ -2,6 +2,13 @@
 #4/25/18
 #stat.py - median, mode, min, max, and mean of a list
 
+def median():
+    numbers.sort()
+    if len(numbers)%2==0:
+        print( (numbers[(len(numbers)-1)/2]+numbers[len(numbers)/2])/2]
+    else:
+        
+
 numbers=[]
 
 while True:
@@ -12,3 +19,4 @@ while True:
 print("Min: ", min(numbers))
 print("Max: ", max(numbers))
 print("Mean: ", sum(numbers)/len(numbers))
+median()
