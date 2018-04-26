@@ -10,3 +10,5 @@ while True:
         break
     numbers.append(str(num))
 print("Min: ", min(numbers))
+print("Max: ", max(numbers))
+print("Mean: ", sum(numbers)/len(numbers))
