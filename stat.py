@@ -8,7 +8,7 @@ while True:
     num=input("Enter a number to add to a list, type q when finished. ")
     if num == "q":
         break
-    numbers.append(str(num))
+    numbers.append(int(num))
 print("Min: ", min(numbers))
 print("Max: ", max(numbers))
 print("Mean: ", sum(numbers)/len(numbers))
