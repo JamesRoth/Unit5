@@ -7,4 +7,4 @@ def printBoard(board):
 
 board=[['a','b','c'],['d','e','f'],['g','h','i']]
 
-printBoard(boa
+printBoard(board)
