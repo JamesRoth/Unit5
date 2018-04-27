@@ -14,7 +14,6 @@ def mode():
     for item in numbers:
         num=numbers.count(item)
         if num>storeLong[1]:
-            print(item, num, storeLong[0])
             storeLong[0]=item
             storeLong[1]=num
     print("Mode:", storeLong[0])
