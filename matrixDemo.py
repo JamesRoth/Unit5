@@ -9,5 +9,8 @@ def printBoard(board):
         print()
 
 board=[['a','b','c'],['d','e','f'],['g','h','i']]
-
 printBoard(board)
+
+row=int(input("Enter a row: "))
+col=int(input("Enter a column: "))
+
