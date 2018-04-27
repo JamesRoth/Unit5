@@ -1,3 +1,5 @@
 #James Roth
 #4/27/18
-#matrixDemo.py - 
+#matrixDemo.py - lists inside of lists
+
+board=[['a','b','c'],['d','e','f'],['g','h','i']]
