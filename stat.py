@@ -16,6 +16,7 @@ def mode():
         if num>storeLong[1]:
             storeLong[0]=item
             storeLong[1]=num
+    print(storeLong[0])
 
 numbers=[]
 
