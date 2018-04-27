@@ -14,6 +14,7 @@ def mode():
         num=numbers.count(item)
         storeLong=[0,0] #[the number, how many times it occurs]
         if num>storeLong[1]:
+            print(item, num)
             storeLong[0]=item
             storeLong[1]=num
     print("Mode:", storeLong[0])
