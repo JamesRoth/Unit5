@@ -9,6 +9,14 @@ def median():
     else:
         print("Median: ", numbers[(len(numbers)+1)/2-1])
 
+def mode():
+    for item in numbers:
+        num=numbers.count(item)
+        storeLong=[0,0] #[the number, how many times it occurs]
+        if num>storeLong[1]:
+            storeLong[0]=item
+            storeLong[1]=num
+
 numbers=[]
 
 while True:
@@ -20,3 +28,4 @@ print("Min: ", min(numbers))
 print("Max: ", max(numbers))
 print("Mean: ", sum(numbers)/len(numbers))
 median()
+mode()
