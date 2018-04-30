@@ -10,7 +10,7 @@ def step():
         ant.x+=randint(-4,3)
         ant.y+=randint(-4,3)
 
-ANTS=10
+ANTS=20
 WIDTH=800
 HEIGHT=500
 
