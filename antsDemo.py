@@ -5,6 +5,11 @@
 from ggame import *
 from random import randint
 
+def step():
+    for ant in data["antlist"]:
+        ant.x+=1
+        ant.y+=1
+
 ANTS=10
 WIDTH=800
 HEIGHT=500
@@ -20,4 +25,4 @@ if __name__ == "__main__":
     for i in range(ANTS):
         data["antlist"],append(Sprite(ant,(randint(1,WIDTH),randint(1,HEIGHT))))
     
-    App().run()
+    App().run(step)
