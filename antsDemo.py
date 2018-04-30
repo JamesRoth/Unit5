@@ -7,8 +7,8 @@ from random import randint
 
 def step():
     for ant in data["antlist"]:
-        ant.x+=1
-        ant.y+=1
+        ant.x+=randint(-4,3)
+        ant.y+=randint(-4,3)
 
 ANTS=10
 WIDTH=800
