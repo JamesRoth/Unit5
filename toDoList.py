@@ -4,7 +4,7 @@
 
 tasks = []
 
-while False:
+while True:
     task=input("Enter a command (add, delete, print, quit): ")
     if task == "quit":
         break
