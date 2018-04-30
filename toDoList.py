@@ -11,5 +11,7 @@ while False:
     elif task[0] == "a":
         tasks.append(task[3:])
     elif task[0] == "d":
-        task.remove(
-        
+        task.remove(task[3:])
+    else:
+        for item in tasks:
+            print(item)
