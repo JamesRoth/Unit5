@@ -1,5 +1,5 @@
-#Sam Smedinghoff
-#5/1/18
+#James Roth
+#5/2/18
 #sortingTemplate.py - times a sorting function
 
 from random import randint
