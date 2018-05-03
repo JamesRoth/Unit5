@@ -5,14 +5,14 @@
 from random import randint
 from time import time
 
-N = 100 #how many numbers will be sorted
+N = 10 #how many numbers will be sorted
 
 def mySort(A):
     if len(numbers) <= 1:
         return numbers
     left = []
     right = []
-    for i in range(1,len(numbers)+1):
+    for i in range(1,len(numbers)):
         if i < len(numbers)/2:
             left.append(numbers[i])
         else:
