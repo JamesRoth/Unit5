@@ -19,7 +19,7 @@ def mySort(numbers):
             right.append(numbers[i])
     left=mySort(left) 
     right=mySort(right)
-    return numbers
+    return merge(left, right)
     
 def merge(left, right):
     result = []
