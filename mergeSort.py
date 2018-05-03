@@ -21,6 +21,11 @@ def mySort(A):
     right=mySort(right)
     return A
     
+def merge(left, right):
+    result = []
+    while len(left) =! 0 and len(right) =! 0:
+        
+
 if __name__ == '__main__':
 
     #make a list of N random numbers between 1 and N
