@@ -17,6 +17,8 @@ def mySort(A):
             left.append(numbers[i])
         else:
             right.append(numbers[i])
+    left=mySort(left)
+    right=mySort(right)
     return A
     
 if __name__ == '__main__':
