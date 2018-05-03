@@ -8,7 +8,7 @@ from time import time
 N = 100 #how many numbers will be sorted
 
 def mySort(A):
-    if len(numbers) =< 1:
+    if len(numbers) <= 1:
         return numbers
     left = []
     right = []
