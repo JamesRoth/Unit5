@@ -24,7 +24,12 @@ def mySort(A):
 def merge(left, right):
     result = []
     while len(left) =! 0 and len(right) =! 0:
-        
+        if left[0] <= right[0]:
+            result.append(left[0])
+            left.remove(left[0])
+        else:
+            result.append(right[0])
+            left.remove(right[0])
 
 if __name__ == '__main__':
 
