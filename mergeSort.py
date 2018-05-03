@@ -17,9 +17,9 @@ def mySort(numbers):
             left.append(numbers[i])
         else:
             right.append(numbers[i])
-    left=mySort(left) #problem seems to be here - a recursive function that doesn't seem to have an exit condition
+    left=mySort(left) 
     right=mySort(right)
-    return A
+    return numbers
     
 def merge(left, right):
     result = []
