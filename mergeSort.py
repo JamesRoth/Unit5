@@ -31,11 +31,11 @@ def merge(left, right):
             result.append(right[0])
             right.remove(right[0])
             
-        while len(left) =! 0:
+        while len(left) != 0:
             result.append(left[0])
             left.remove(left[0])
             
-        while len(right) =! 0:
+        while len(right) != 0:
             result.append(right[0])
             right.remove(right[0])
         
