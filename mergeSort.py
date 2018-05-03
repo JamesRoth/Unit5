@@ -1,6 +1,6 @@
 #James Roth
-#5/2/18
-#cocktailSortDemo.py - implementing cocktail sort
+#5/3/18
+#mergeSort.py - translating merge sort pseudcode into python
 
 from random import randint
 from time import time
