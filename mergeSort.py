@@ -7,7 +7,7 @@ from time import time
 
 N = 10 #how many numbers will be sorted
 
-def mySort(A):
+def mySort(numbers):
     if len(numbers) <= 1:
         return numbers
     left = []
@@ -17,7 +17,7 @@ def mySort(A):
             left.append(numbers[i])
         else:
             right.append(numbers[i])
-    left=mySort(left)
+    left=mySort(left) #problem seems to be here - a recursive function that doesn't seem to have an exit condition
     right=mySort(right)
     return A
     
