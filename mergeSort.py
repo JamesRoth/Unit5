@@ -38,9 +38,7 @@ def merge(left, right):
     while len(right) != 0:
         result.append(right[0])
         right.remove(right[0])
-        
-    print(numbers)
-    print(result)
+
     return result
 
 if __name__ == '__main__':
