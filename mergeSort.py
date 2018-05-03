@@ -8,6 +8,15 @@ from time import time
 N = 100 #how many numbers will be sorted
 
 def mySort(A):
+    if length numbers <= 1:
+        return numbers
+    left = []
+    right = []
+    for i in range(1,numbers+1):
+        if i < len(numbers)/2:
+            left.append(numbers[i])
+        else:
+            right.append(numbers[i])
     return A
     
 if __name__ == '__main__':
