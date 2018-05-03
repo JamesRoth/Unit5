@@ -12,7 +12,7 @@ def mySort(A):
         return numbers
     left = []
     right = []
-    for i in range(1,numbers+1):
+    for i in range(1,len(numbers)+1):
         if i < len(numbers)/2:
             left.append(numbers[i])
         else:
