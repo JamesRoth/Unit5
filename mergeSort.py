@@ -29,7 +29,9 @@ def merge(left, right):
             left.remove(left[0])
         else:
             result.append(right[0])
-            left.remove(right[0])
+            right.remove(right[0])
+        while len(left) =! 0:
+            
 
 if __name__ == '__main__':
 
