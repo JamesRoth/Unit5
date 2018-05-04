@@ -8,3 +8,6 @@ def double(list):
     doubled=[]
     for i in range(0, list):
         doubled.append(list[i]*2)
+    print(doubled)
+
+double([4,3,7])
