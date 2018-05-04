@@ -6,7 +6,7 @@ numbers=[8,3,2,6,4,7]
 
 def double(list):
     doubled=[]
-    for i in range(0, list):
+    for i in range(0, len(list)):
         doubled.append(list[i]*2)
     print(doubled)
 
