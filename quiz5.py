@@ -19,8 +19,10 @@ def smallest(list):
 
 def decimalRange(num1, num2, num3):
     list1=[]
-    for i in range(num1, num2, num3):
+    i=num1
+    while i<num2:
         list1.append(i)
+        i+=num3
     return(list1)
 
 print(penultimate([1,2,3,4]))
