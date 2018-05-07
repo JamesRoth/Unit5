@@ -25,5 +25,5 @@ def decimalRange(num1, num2, num3):
 
 print(penultimate([1,2,3,4]))
 print(plusEquals([1,2,3,4],10))
-print(smallest([1,2,3,4])
+print(smallest([1,2,3,4]))
 print(decimalRange(4,10,0.5))
